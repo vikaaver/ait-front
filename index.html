@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <!-- <link rel="stylesheet" href="./styles/reset.css" /> -->
+    <!-- <link rel="stylesheet" href="./styles/normalize.css" /> -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Fake store API 🏪</title>
+  </head>
+  <body>
+    <div class="containerWrapper" id="containerWrapper">
+      <header class="header" id="header">
+        <a href="./">
+          <img src="./images/home.svg" class="logo" alt="" />
+        </a>
+        <a href="./videos/videos.html" class="navLink">videos</a>
+        <a href="./info/info.html" class="navLink">info</a>
+      </header>
+      <main class="main" id="main">
+        <div id="loader" style="display: none" class="loader"></div>
+        <h3>Upload items from store:</h3>
+        <form id="formItems" action="">
+          <label for="">Amount of items:</label>
+          <input
+            name="form-amount"
+            type="number"
+            placeholder="Amount"
+            required
+          />
+          <button type="submit">Send</button>
+        </form>
+        <div style="display: none" id="contentContainer">
+          <h3>Product list:</h3>
+          <ul id="productList"></ul>
+        </div>
+        <div class="gridContainerAuto">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+        <div class="gridContainerMinMax">
+          <div class="gridItem">
+            <span>1</span>
+          </div>
+          <div class="gridItem">
+            <span>2</span>
+          </div>
+          <div class="gridItem">
+            <span>3</span>
+          </div>
+          <div class="gridItem">
+            <span>4</span>
+          </div>
+          <div class="gridItem">
+            <span>5</span>
+          </div>
+
+          <img src="/images/home red.svg" alt="" class="logo">
+     
+        </div>
+        <div class="gridContainerAreas">
+          <div class="bottom">
+            <h1>bottom</h1>
+          </div>
+
+        <div class="top">
+          <h1>top</h1>
+        </div>
+        </div>
+      </main>
+      <footer class="footer" id="footer"></footer>
+    </div>
+  </body>
+</html>
