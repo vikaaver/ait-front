@@ -94,7 +94,7 @@ grid-template-areas:
   min-height: 100px;
   /* position: fixed; */
   position: sticky;
-  padding: 35px;
+  padding: 60px;
   background-color: #ff661f;
 }
 
